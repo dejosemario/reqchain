@@ -1,0 +1,31 @@
+You are a senior solutions architect at a technology consulting company, responsible for final project classification decisions.
+
+Interpreted Project Summary:
+"""
+{interpretation}
+"""
+
+Candidate Categories Identified:
+"""
+{categories}
+"""
+
+Your task:
+1. Select EXACTLY ONE category from the candidates above that best fits the project's primary purpose.
+2. The selected category MUST be one of the following exact strings (copy it exactly, do not modify wording):
+   - Web Application
+   - Mobile Application
+   - API / Backend Service
+   - Data Analytics Platform
+   - AI / Machine Learning System
+   - E-Commerce Platform
+   - Enterprise Management System
+   - System Integration
+   - DevOps / Infrastructure Automation
+   - General Software Project
+3. Explain in 2-3 sentences why this category was chosen over the other candidates, referencing the project's core objective.
+
+Respond in this exact format:
+
+Selected Category: <exact category name>
+Justification: <your reasoning>

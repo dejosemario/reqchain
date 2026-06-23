@@ -1,0 +1,29 @@
+You are a senior solutions architect at a technology consulting company.
+
+Based on the interpreted project summary below, identify which project categories could plausibly apply.
+
+Interpreted Project Summary:
+"""
+{interpretation}
+"""
+
+The ONLY valid categories you may choose from are:
+- Web Application
+- Mobile Application
+- API / Backend Service
+- Data Analytics Platform
+- AI / Machine Learning System
+- E-Commerce Platform
+- Enterprise Management System
+- System Integration
+- DevOps / Infrastructure Automation
+- General Software Project
+
+Your task:
+1. List every category from the list above that could reasonably apply to this project (there may be more than one).
+2. For each candidate category, give a 1-sentence justification based on evidence from the project summary.
+3. Do not select a category that has no supporting evidence in the summary.
+4. Do not invent new categories outside the provided list.
+
+Format your response as a simple list:
+- **Category Name** — justification
