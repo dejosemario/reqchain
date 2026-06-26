@@ -46,3 +46,14 @@ llm = ChatOpenAI(
 
 output_parser = StrOutputParser()
 
+def make_printer(stage_title: str):
+    """Returns a RunnableLambda that prints text passing through the chain."""
+
+    def _print_and_pass(text: str) -> str:
+        print("\n" + "=" * 80)
+        print(f"STAGE: {stage_title}")
+        print("=" * 80)
+        print(text.strip())
+        return text
+
+    return RunnableLambda(_print_and_pass)
